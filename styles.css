@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(44, 44, 44);
+    color: rgb(240, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-top: 0%;
+}
+
+
+
+#info-personal ul {
+    list-style-type: square;
+    padding: 0%
+}
+
+#educacion ul {
+    padding: 0%;
+}
+
+#habilidades ul {
+    list-style-type: square;
+    padding: 0%;
+    border: 0px;
+}
+
+
+
+footer {
+    color: rgb(99, 177, 250);
+    font-size: small;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    header, #info-personal, #habilidades {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    header, #info-personal, #habilidades {
+    padding: 20px;
+    }
+    h1, h2 {
+    font-size: 22px;
+    }
+}
+    
+
+@media only screen and (min-width: 1025px) {
+       
+    header, #info-personal, #educacion, #habilidades {
+    padding-left: 5px;
+    }
+    h1, h2 {
+    font-size: 28px;
+    }
+}
+        
